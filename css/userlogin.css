@@ -1,0 +1,25 @@
+﻿body {
+
+}
+
+.userlogin-img{
+    filter:contrast(250%);
+    border:1px solid rgb(0, 21, 121);
+    border-radius:50%;
+}
+
+.adminlogin-img {
+    filter: contrast(250%);
+}
+
+.userlogin-bg {
+    background-color: rgb(0,0,0);
+}
+
+.adminlogin-bg {
+    background-color: rgb(0,0,0);
+}
+
+
+
+

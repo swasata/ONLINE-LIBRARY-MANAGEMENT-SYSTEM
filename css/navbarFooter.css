@@ -1,0 +1,57 @@
+﻿.custom-body-colour {
+    /*background-color: rgb(204, 238, 232);*/
+    background: rgb(173,116,0);
+    background: -moz-linear-gradient(90deg, rgba(173,116,0,1) 0%, rgba(255,194,103,1) 50%, rgba(173,116,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(173,116,0,1) 0%, rgba(255,194,103,1) 50%, rgba(173,116,0,1) 100%);
+    background: linear-gradient(90deg, rgba(173,116,0,1) 0%, rgba(255,194,103,1) 50%, rgba(173,116,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ad7400",endColorstr="#ad7400",GradientType=1);
+
+
+
+}
+
+.navbar-colour {
+    background-color: rgb(0,0,0);
+    box-shadow: 5px 10px 20px rgba(255,194,103,1);
+}
+
+li:hover {
+    background-color: rgb(173,116,0);
+    border: 0px;
+    border-radius: 5px;
+}
+
+.navbar-image {
+    filter: contrast(200%);
+}
+
+.navbar-toggler-icon{
+    background-color:rgb(173,116,0);
+}
+
+.navbar-toggler{
+    background-color:white;
+}
+
+
+
+
+
+
+.footerlinks {
+    color: #ffffff;
+    /*text-decoration: none !important;*/
+}
+
+    .footerlinks:hover {
+        color: #ffd800;
+        text-decoration: underline;
+    }
+
+#footer1 {
+    background: #762b00;
+}
+
+#footer2 {
+    background: #531f00;
+}

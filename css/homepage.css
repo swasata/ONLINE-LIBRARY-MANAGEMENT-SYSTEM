@@ -1,0 +1,51 @@
+﻿body {
+}
+
+.border{
+    border: 3px solid red;
+}
+
+
+.home-bg-image{
+    height:280px;
+}
+.home-bg-image:hover {
+    cursor: pointer;
+    filter: contrast(105%);
+}
+
+.box-background {
+    /*background-color: #3a92d4;*/
+    /*background-color:red;*/
+    background-color: rgb(0,0,0);
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,98,0,1) 50%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,98,0,1) 50%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,98,0,1) 50%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    opacity: 0.8;
+    font-family: sans-serif;
+    color: white;
+}
+   
+    .box-background:hover {
+        opacity: 1;
+        cursor: pointer;
+        transform: scale(1.075);
+        transition: 0.5s ease-in;
+        filter: contrast(105%);
+    }
+
+    .second-image:hover {
+        opacity: 1;
+        cursor: pointer;
+        filter: contrast(150%);
+    }
+
+
+
+.bg-books-custom {
+    background-color: rgb(146, 94, 0);
+   
+}
+
+   
